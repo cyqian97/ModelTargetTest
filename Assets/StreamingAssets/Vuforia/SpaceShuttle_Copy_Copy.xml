@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="SpaceShuttle_Copy_Copy" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="SpaceShuttle_Copy_Copys_assembly" assemblyId="a23a526c2ba14c9dbe3c66b5db179a67">
+<Part name="SpaceShuttle_Copy_Copy" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.000332806 0.053233 0.376693" rotation="AD: 0.595904 1.64377 -0.999792 159.597" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

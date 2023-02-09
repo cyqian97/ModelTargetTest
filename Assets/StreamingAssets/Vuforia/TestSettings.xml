@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig>
+    <Tracking>
+        <ModelTarget name="RacePlane_Copy2" trackingMode="car" motionHint="adaptive" upVector="0.0 0.0 1.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="SpaceShuttle_Copy2" trackingMode="car" motionHint="adaptive" upVector="0.0 0.0 1.0" optimizeTrackingFor="default"> </ModelTarget>
+    </Tracking>
+    <Assembly name="RacePlane_Copy2" assemblyId="698c340b18f24a12b6bb0d04542d386c">
+        <Part name="RacePlane_Copy2" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="SpaceShuttle_Copy2" assemblyId="3162a56d70954f2cb4188e7a3b5b33bc">
+        <Part name="SpaceShuttle_Copy2" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <ModelTargetDatabase name="TestSettings"> </ModelTargetDatabase>
+</QCARConfig>

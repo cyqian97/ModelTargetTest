@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v5.7.6">
+        <ModelTarget name="RacePlane_Copy2" targetId="889c8d9c97724741b66a4c5119c132ed" bbox="-0.114461 -0.086657 -0.002864 0.114318 0.085632 0.086118" version="13.0" toolVersion="v5.7.6" trackingMode="car" upVector="0.0 0.0 1.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="SpaceShuttle_Copy2" targetId="4e353e5fc10b4a3b9470a3f8388b3f6f" bbox="-0.140809 -0.096096 -0.000055 0.140816 0.096115 0.158399" version="13.0" toolVersion="v5.7.6" trackingMode="car" upVector="0.0 0.0 1.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="RacePlane_Copy2" assemblyId="698c340b18f24a12b6bb0d04542d386c">
+        <Part name="RacePlane_Copy2" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="SpaceShuttle_Copy2" assemblyId="3162a56d70954f2cb4188e7a3b5b33bc">
+        <Part name="SpaceShuttle_Copy2" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <ModelTargetDatabase mtDBid="9bbf8d0d2089457eae11d171fb15d30b" name="TestSettings" toolVersion="v5.7.6" version="36.0" />
+</QCARInfo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.13.3">
+<ModelTarget name="RacePlane_Copy_Copy" targetId="a2a332b92f5240e085c24d609f6505d3" version="14.0" toolVersion="10.13.3" bbox="-0.114461 -0.086657 -0.002864 0.114318 0.085632 0.086118" previewImage="a2a332b92f5240e085c24d609f6505d3_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="RacePlane_Copy_Copys_assembly" assemblyId="dfe0f3f1dfce44a588a0c11be1d56be4">
+<Part name="RacePlane_Copy_Copy" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="0.00274799 -0.01491 0.291679" rotation="AD: 0.991664 0.604087 -0.271554 139.007" image="RacePlane_Copy_Copy_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

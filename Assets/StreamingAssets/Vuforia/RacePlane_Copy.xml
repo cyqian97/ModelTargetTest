@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="RacePlane_Copy" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="RacePlane_Copys_assembly" assemblyId="dfe0f3f1dfce44a588a0c11be1d56be4">
+<Part name="RacePlane_Copy" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="0.00274799 -0.01491 0.291679" rotation="AD: 0.991664 0.604087 -0.271554 139.007" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

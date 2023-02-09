@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.13.3">
+<ModelTarget name="SpaceShuttle_Copy" targetId="7ac55ff42e474a598735ffed08568c21" version="14.0" toolVersion="10.13.3" bbox="-0.140809 -0.096096 -0.000055 0.140816 0.096115 0.158399" previewImage="7ac55ff42e474a598735ffed08568c21_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="SpaceShuttle_Copys_assembly" assemblyId="a23a526c2ba14c9dbe3c66b5db179a67">
+<Part name="SpaceShuttle_Copy" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.000332806 0.053233 0.376693" rotation="AD: 0.595904 1.64377 -0.999792 159.597" image="SpaceShuttle_Copy_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
