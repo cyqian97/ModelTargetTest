@@ -134,7 +134,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: fe6a2e2ec28927e4aa4234088959b2b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe6a2e2ec28927e4aa4234088959b2b0,
         type: 3}
@@ -190,6 +190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RacePlane Blender
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a2e2ec28927e4aa4234088959b2b0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe6a2e2ec28927e4aa4234088959b2b0, type: 3}
@@ -1028,9 +1033,9 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: RacePlane
+  mTrackableName: RacePlane_Copy2
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/AR-Classroom.xml
+  mDataSetPath: Vuforia/TestSettings.xml
   mBaseSize: 0.22877899
   mAspectRatioXY: 0.75308055
   mAspectRatioXZ: 0.38894308
@@ -1067,6 +1072,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1193974868}
   - {fileID: 556877789}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1085,8 +1091,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 358741618}
   mHiddenRoot: {fileID: 0}
-  mTargetName: RacePlane
-  mDatasetName: Vuforia/AR-Classroom.xml
+  mTargetName: RacePlane_Copy2
+  mDatasetName: Vuforia/TestSettings.xml
   mCastedBehaviour: {fileID: 358741618}
   mModelScale: {x: 0, y: 0, z: 0}
   mModelTargetPreview: {fileID: 0}
@@ -1395,7 +1401,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: SpaceShuttle
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/AR-Classroom.xml
+  mDataSetPath: Vuforia/AR-Classroom-PlaneTexture.xml
   mBaseSize: 0.281625
   mAspectRatioXY: 0.68250686
   mAspectRatioXZ: 0.5626418
@@ -1435,7 +1441,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 493659276}
   mHiddenRoot: {fileID: 0}
   mTargetName: SpaceShuttle
-  mDatasetName: Vuforia/AR-Classroom.xml
+  mDatasetName: Vuforia/AR-Classroom-PlaneTexture.xml
   mCastedBehaviour: {fileID: 493659276}
   mModelScale: {x: 0, y: 0, z: 0}
   mModelTargetPreview: {fileID: 0}
@@ -2776,6 +2782,80 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1001 &1139922643
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 358741619}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000081460335
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_Name
+      value: RacePlane_Texture
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fa9f15b4a806c1f4fa3da2b20ab31af5, type: 3}
 --- !u!1 &1144489230
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,6 +3087,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156228457}
   m_CullTransparentMesh: 0
+--- !u!4 &1193974868 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa9f15b4a806c1f4fa3da2b20ab31af5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1139922643}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1273652731
 GameObject:
   m_ObjectHideFlags: 0
