@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="3DBenchy" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="3DBenchys_assembly" assemblyId="66b08502f701468ab473ad6dc454d330">
+<Part name="3DBenchy" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="0.00387976 0.0171821 0.108134" rotation="AD: 0.997332 -0.369326 0.255651 115.484" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
